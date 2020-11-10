@@ -1,0 +1,153 @@
+  #title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+#heading{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+.container{
+  padding: 3% 15%;
+}
+body{
+  font-family: 'Montserrat';
+}
+/*Navigation Bar*/
+#brand{
+font-family: Ubuntu;
+font-size: 2.5rem;
+font-weight: bold;
+color: #fff;
+}
+#navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0px 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family: 'Montserrat'
+}
+/*Download Buttons*/
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/*phone img*/
+.phone-img{
+  width: 50%;
+  transform: rotate(25deg);
+  right: 30%;
+
+  position: absolute;
+}
+/*features*/
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+  padding:2%;
+}
+.fas{
+  color: #ef8172;
+  padding-top: 15%;
+  padding-bottom: 2%;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+
+
+h3{
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+}
+p{
+  font-family: 'Montserrat'
+  color: #8f8f8f;
+}
+/*testimonial section*/
+#testimonials{
+
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.test-text{
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.dog-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* press section */
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom:20px;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing section */
+#pricing{
+
+  text-align: center;
+  padding: 100px;
+}
+.price-col{
+  padding: 3% 5%;
+}
+.price-head{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+@media (max-width:1028px) {
+  .phone-img{
+    position: static;
+    transform:rotate(0deg);
+  }
+  #title{
+    text-align: center;
+  }
+
+}
+/* footer-section */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 7% 15%;
+
+
+}
+.cta-text{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#footer{
+  text-align: center;
+  padding:
+
+}
+.ee{
+  padding: 20px;
+}
